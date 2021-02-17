@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-17T08:11:07 WIB" name="Default suite" finished-at="2021-02-17T08:11:25 WIB" duration-ms="17869">
+    <groups>
+      <group name="4thPage">
+        <method signature="selfAssesment.pickTidak()[pri:15, instance:selfAssesment@765d7657]" name="pickTidak" class="selfAssesment"/>
+      </group> <!-- 4thPage -->
+      <group name="5thPage">
+        <method signature="selfAssesment.submitPage()[pri:16, instance:selfAssesment@765d7657]" name="submitPage" class="selfAssesment"/>
+      </group> <!-- 5thPage -->
+      <group name="2ndPage">
+        <method signature="selfAssesment.goTo3rdPage()[pri:8, instance:selfAssesment@765d7657]" name="goTo3rdPage" class="selfAssesment"/>
+        <method signature="selfAssesment.isiDepartemen()[pri:6, instance:selfAssesment@765d7657]" name="isiDepartemen" class="selfAssesment"/>
+        <method signature="selfAssesment.isiKtp()[pri:4, instance:selfAssesment@765d7657]" name="isiKtp" class="selfAssesment"/>
+        <method signature="selfAssesment.isiNama()[pri:3, instance:selfAssesment@765d7657]" name="isiNama" class="selfAssesment"/>
+        <method signature="selfAssesment.isiNamaAtasan()[pri:6, instance:selfAssesment@765d7657]" name="isiNamaAtasan" class="selfAssesment"/>
+        <method signature="selfAssesment.isiNoHp()[pri:5, instance:selfAssesment@765d7657]" name="isiNoHp" class="selfAssesment"/>
+        <method signature="selfAssesment.isiNoHpAtasan()[pri:7, instance:selfAssesment@765d7657]" name="isiNoHpAtasan" class="selfAssesment"/>
+      </group> <!-- 2ndPage -->
+      <group name="1stPage">
+        <method signature="selfAssesment.buttonNext()[pri:2, instance:selfAssesment@765d7657]" name="buttonNext" class="selfAssesment"/>
+        <method signature="selfAssesment.selectMagang()[pri:1, instance:selfAssesment@765d7657]" name="selectMagang" class="selfAssesment"/>
+      </group> <!-- 1stPage -->
+      <group name="3rdPage">
+        <method signature="selfAssesment.goTo4thPage()[pri:14, instance:selfAssesment@765d7657]" name="goTo4thPage" class="selfAssesment"/>
+        <method signature="selfAssesment.isiBerpergian()[pri:10, instance:selfAssesment@765d7657]" name="isiBerpergian" class="selfAssesment"/>
+        <method signature="selfAssesment.pickBerpergian()[pri:9, instance:selfAssesment@765d7657]" name="pickBerpergian" class="selfAssesment"/>
+        <method signature="selfAssesment.pickKasus()[pri:13, instance:selfAssesment@765d7657]" name="pickKasus" class="selfAssesment"/>
+        <method signature="selfAssesment.pickKegiatan()[pri:12, instance:selfAssesment@765d7657]" name="pickKegiatan" class="selfAssesment"/>
+        <method signature="selfAssesment.pickTransportasi()[pri:11, instance:selfAssesment@765d7657]" name="pickTransportasi" class="selfAssesment"/>
+      </group> <!-- 3rdPage -->
+    </groups>
+    <test started-at="2021-02-17T08:11:07 WIB" name="Default test" finished-at="2021-02-17T08:11:25 WIB" duration-ms="17869">
+      <class name="selfAssesment">
+        <test-method is-config="true" signature="startApp()[pri:0, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:07 WIB" name="startApp" finished-at="2021-02-17T08:11:15 WIB" duration-ms="7367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method signature="selectMagang()[pri:1, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:15 WIB" name="selectMagang" finished-at="2021-02-17T08:11:15 WIB" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMagang -->
+        <test-method signature="buttonNext()[pri:2, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:15 WIB" name="buttonNext" finished-at="2021-02-17T08:11:16 WIB" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonNext -->
+        <test-method signature="isiNama()[pri:3, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:16 WIB" name="isiNama" finished-at="2021-02-17T08:11:17 WIB" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isiNama -->
+        <test-method signature="isiKtp()[pri:4, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:17 WIB" name="isiKtp" finished-at="2021-02-17T08:11:17 WIB" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isiKtp -->
+        <test-method signature="isiNoHp()[pri:5, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:17 WIB" name="isiNoHp" finished-at="2021-02-17T08:11:17 WIB" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isiNoHp -->
+        <test-method signature="isiDepartemen()[pri:6, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:17 WIB" name="isiDepartemen" finished-at="2021-02-17T08:11:17 WIB" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isiDepartemen -->
+        <test-method signature="isiNamaAtasan()[pri:6, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:17 WIB" name="isiNamaAtasan" finished-at="2021-02-17T08:11:17 WIB" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isiNamaAtasan -->
+        <test-method signature="isiNoHpAtasan()[pri:7, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:17 WIB" name="isiNoHpAtasan" finished-at="2021-02-17T08:11:18 WIB" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isiNoHpAtasan -->
+        <test-method signature="goTo3rdPage()[pri:8, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:18 WIB" name="goTo3rdPage" finished-at="2021-02-17T08:11:18 WIB" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goTo3rdPage -->
+        <test-method signature="pickBerpergian()[pri:9, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:18 WIB" name="pickBerpergian" finished-at="2021-02-17T08:11:19 WIB" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickBerpergian -->
+        <test-method signature="isiBerpergian()[pri:10, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:19 WIB" name="isiBerpergian" finished-at="2021-02-17T08:11:19 WIB" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isiBerpergian -->
+        <test-method signature="pickTransportasi()[pri:11, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:19 WIB" name="pickTransportasi" finished-at="2021-02-17T08:11:19 WIB" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickTransportasi -->
+        <test-method signature="pickKegiatan()[pri:12, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:19 WIB" name="pickKegiatan" finished-at="2021-02-17T08:11:19 WIB" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickKegiatan -->
+        <test-method signature="pickKasus()[pri:13, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:19 WIB" name="pickKasus" finished-at="2021-02-17T08:11:20 WIB" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickKasus -->
+        <test-method signature="goTo4thPage()[pri:14, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:20 WIB" name="goTo4thPage" finished-at="2021-02-17T08:11:20 WIB" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goTo4thPage -->
+        <test-method signature="pickTidak()[pri:15, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:20 WIB" name="pickTidak" finished-at="2021-02-17T08:11:23 WIB" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickTidak -->
+        <test-method signature="submitPage()[pri:16, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:23 WIB" name="submitPage" finished-at="2021-02-17T08:11:23 WIB" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitPage -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:selfAssesment@765d7657]" started-at="2021-02-17T08:11:23 WIB" name="closeApp" finished-at="2021-02-17T08:11:25 WIB" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- selfAssesment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
