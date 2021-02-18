@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="classes" name="SelfAssesment">
+  <test thread-count="5" parallel="classes" name="SelfAssesment">
+    <classes>
+      <class name=".selfAssesment"/>
+    </classes>
+  </test> <!-- SelfAssesment -->
+</suite> <!-- SelfAssesment -->

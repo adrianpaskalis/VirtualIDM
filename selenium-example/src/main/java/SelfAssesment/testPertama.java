@@ -1,3 +1,4 @@
+package SelfAssesment;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
