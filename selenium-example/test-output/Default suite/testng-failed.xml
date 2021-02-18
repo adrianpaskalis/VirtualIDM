@@ -3,27 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selfAssesment">
+      <class name="SelfAssesment.testPertama">
         <methods>
-          <include name="isiNamaAtasan"/>
-          <include name="pickKasus"/>
-          <include name="pickTidak"/>
           <include name="startApp"/>
-          <include name="isiBerpergian"/>
-          <include name="closeApp"/>
-          <include name="isiKtp"/>
-          <include name="goTo3rdPage"/>
-          <include name="pickKegiatan"/>
-          <include name="isiNama"/>
-          <include name="submitPage"/>
-          <include name="isiDepartemen"/>
-          <include name="isiNoHp"/>
-          <include name="isiNoHpAtasan"/>
-          <include name="pickTransportasi"/>
-          <include name="goTo4thPage"/>
-          <include name="buttonNext"/>
+          <include name="getCustomerCare"/>
+          <include name="getLinkBantuan"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- selfAssesment -->
+      </class> <!-- SelfAssesment.testPertama -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
